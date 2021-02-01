@@ -21,7 +21,6 @@ def cli(cpu, memroy, disk):
         return
     if disk:
         usage = psutil.disk_usage("/")
-        print(usage)
         total = "{:.2f}".format(usage.total / (10 ** 9))
         free = "{:.2f}".format(usage.free / (10 ** 9))
         print(f"total: {total}G\nfree: {free}G")
