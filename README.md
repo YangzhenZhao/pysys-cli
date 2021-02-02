@@ -17,4 +17,11 @@ Options:
   -m, --memroy
   -d, --disk
   --help        Show this message and exit.
+
+$ syscli -c
+2.30 GHz 2核 4线程
+
+$ syscli -d
+total: 250.69G
+free: 69.53G
 ```
